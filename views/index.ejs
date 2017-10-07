@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+      <p>Welcome to the Great Number Game!</p>
+       <p>I am thinking of a number between 1 and 100</p>
+        <p>Take a guess!</p>
+         <%=  text1 %>
+        <form action="/check" method="post">
+       
+            <input type="text" name="number">
+            <input type="submit" value="Submit">
+        </form>
+        <form action='/reset' method='post'>
+            <input type='submit' value='Play again!'>
+        </form>
+    </body>
+</html>
